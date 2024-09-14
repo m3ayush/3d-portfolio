@@ -39,7 +39,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-              I have knowledge in languages such as C, C++, Python, and Java. Additionally, I am proficient in front-end web development using HTML, CSS, JavaScript, and the React.js framework. 
+              I have knowledge in languages such as C, C++, Python, and Java. Additionally, I am proficient in front-end web development using HTML, CSS, JavaScript, and frameworks such as Tailwind CSS and React.js . 
               </p>
             </div>
           </div>
