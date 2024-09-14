@@ -29,9 +29,9 @@ const Contact = () => {
                 'template_zaq4hfh',
                 {
                     from_name: form.name,
-                    to_name: 'Adrian',
+                    to_name: 'Ayushman',
                     from_email: form.email,
-                    to_email: 'adrian@jsmastery.pro',
+                    to_email: 'ayushbhat0518@gmail.com',
                     message: form.message
                 },
                 'OKryvpOfPEr6WIBrZ'
@@ -79,7 +79,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="field-input"
-                        placeholder="ex., John Doe"
+                        placeholder="ex., Ayushman"
                       />
                     </label>
         
@@ -92,7 +92,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="field-input"
-                        placeholder="ex., johndoe@gmail.com"
+                        placeholder="ex., ayushbhat0518@gmail.com"
                       />
                     </label>
         

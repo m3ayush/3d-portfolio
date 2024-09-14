@@ -3,7 +3,8 @@ import { clientReviews } from '../constants/index.js';
 const Clients = () => {
   return (
     <section className="c-space my-20">
-      <h3 className="head-text">Hear from My Clients</h3>
+      <h3 className="head-text">Professional Endorsements</h3>
+      <p className='text-white-500 font-semibold p-4'>Coming soon...</p>
 
       <div className="client-container">
         {clientReviews.map((item) => (

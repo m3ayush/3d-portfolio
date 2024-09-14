@@ -8,7 +8,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' ayushbhat0518@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -26,8 +26,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Ayushman Bhatnagar</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              I am a second-year Computer Science student at SRMIST. I have a strong passion for exploring new technologies, and I am always eager to expand my knowledge and keep up with the latest advancements in the tech world. My goal is to use my knowledge to solve real-world problems and challenges.
               </p>
             </div>
           </div>
@@ -40,8 +39,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+              I have knowledge in languages such as C, C++, Python, and Java. Additionally, I am proficient in front-end web development using HTML, CSS, JavaScript, and the React.js framework. 
               </p>
             </div>
           </div>
@@ -64,8 +62,11 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-subtext">I live in India and open to remote work worldwide.</p>
+              <a href="#contact">
+                <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              </a>
+              
             </div>
           </div>
         </div>
@@ -77,9 +78,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
-              </p>
+                I love solving problems and building things through code. Creating products to solve real-world problems motivates me to deep dive into learning. I enjoy exploring new technologies and enhancing my skills. I am eager to start using new AI tools and create something amazing with them.              </p>
             </div>
           </div>
         </div>
@@ -96,7 +95,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">ayushbhat0518@gmail.com</p>
               </div>
             </div>
           </div>

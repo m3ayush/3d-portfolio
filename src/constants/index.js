@@ -1,28 +1,33 @@
 export const navLinks = [
     {
       id: 1,
-      name: 'Home',
-      href: '#home',
-    },
-    {
-      id: 2,
       name: 'About',
       href: '#about',
     },
     {
+      id: 2,
+      name: 'Project',
+      href: '#projects',
+    },
+    {
       id: 3,
-      name: 'Work',
-      href: '#work',
+      name: 'Experience',
+      href: '#experience',
     },
     {
       id: 4,
+      name: 'Social',
+      href: '#socials',
+    },
+    {
+      id: 5,
       name: 'Contact',
       href: '#contact',
-    },
+    }
   ];
   
   export const clientReviews = [
-    {
+    /*{
       id: 1,
       name: 'Emily Johnson',
       position: 'Marketing Director at GreenLeaf',
@@ -53,10 +58,70 @@ export const navLinks = [
       img: 'assets/review4.png',
       review:
         'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
+    },*/
   ];
   
   export const myProjects = [
+    {
+      title: 'Chatify - Messenger website',
+      desc: 'Chatify is a messaging platform where users can log in using their username and engage in real-time conversations with people. The platform fosters spontaneous connections, offering a seamless chat experience in a user-friendly interface.',
+      subdesc:
+        'Built with React.js, Firebase firestore database and deployed at firebase. ',
+      href: 'https://chatify-7358b.web.app',
+      texture: '/textures/project/project1.mp4',
+      logo: '/assets/project-logo1.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'Firebase',
+          path: '/assets/firebase.png',
+        }
+      ],
+    },
+    {
+      title: 'Folio',
+      desc: 'This is a 3d-portfolio website which you are viewing right now. This website is created using the concepts of Three.js and the React library- React three fiber.',
+      subdesc:
+        'Built with React.js, Three.js, Tailwind CSS and deployed at vercel. ',
+      href: 'https://ayushmanbhatnagar.vercel.app/',
+      texture: '/textures/project/project2.mp4',
+      logo: '/assets/project-logo2.png',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'Three.js',
+          path: '/assets/Threejs.png',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        }
+      ],
+    }
+    /*
     {
       title: 'Podcastr - AI Podcast Platform',
       desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
@@ -243,7 +308,7 @@ export const navLinks = [
           path: '/assets/framer.png',
         },
       ],
-    },
+    },*/
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -259,6 +324,34 @@ export const navLinks = [
   
   export const workExperiences = [
     {
+      id: 1,
+      name: 'Reliance Power Limited',
+      pos: 'Internship Trainee',
+      duration: 'Jun 2024 - Jul-2024 | 1 mon',
+      title: "During my offline trainee internship at Reliance Power coal mines, I gained practical insights into the operation of heavy mining equipment, including mine shafts and draglines. I also explored the technical side of mining safety by learning about advanced instruments designed to enhance safety, reusability, and minimize theft in mining operations. A notable experience was observing a training simulator developed in Unity, used for training dragline and dumper operators, which showcased the role of cutting-edge simulation technology in industrial workforce training.",
+      icon: '/assets/reliance.jpeg',
+      animation: 'clapping',
+    },
+    {
+      id: 2,
+      name: '',
+      pos: '',
+      duration: '',
+      title: "",
+      icon: '',
+      animation: 'salute',
+    },
+    {
+      id: 3,
+      name: '',
+      pos: '',
+      duration: '',
+      title: "",
+      icon: '',
+      animation: 'victory',
+    },
+   
+    /*{
       id: 1,
       name: 'Framer',
       pos: 'Lead Web Developer',
@@ -284,5 +377,5 @@ export const navLinks = [
       title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
       icon: '/assets/notion.svg',
       animation: 'salute',
-    },
+    },*/
   ];
